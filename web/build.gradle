@@ -1,0 +1,48 @@
+
+
+//plugins {
+//    id 'org.springframework.boot' version '2.0.0.RELEASE'
+//}
+
+//apply plugin: 'java'
+version '1.0-SNAPSHOT'
+//apply plugin: 'io.spring.dependency-management'
+
+group 'userBooks'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-freemarker'
+
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+    compile group: 'org.modelmapper', name: 'modelmapper', version: '2.0.0'
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.0.0.RELEASE'
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+
+//    compile group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: '2.3.0'
+
+    /* jQuery */
+    compile 'org.webjars:jquery:1.12.3'
+    compile 'org.webjars:jquery-blockui:2.65'
+    compile 'org.webjars:jquery-validation:1.15.0'
+    compile 'org.webjars:jquery-form:3.51'
+    compile 'org.webjars:jquery-ui:1.11.4'
+    compile 'org.webjars:jquery-placeholder:2.1.1'
+
+//    compile projects(":books")
+    compile project(':books')
+
+
+
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:jquery-placeholder:2.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery-placeholder/2.1.1/f067139ce0451d1df87dc3d663c16eb08eec79e/jquery-placeholder-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery-placeholder/2.1.1/aa646a2ee71ef93efd29dac47e5e18fbeffac9f6/jquery-placeholder-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

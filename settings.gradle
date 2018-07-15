@@ -1,0 +1,4 @@
+rootProject.name = 'userBooks'
+include 'web'
+include 'books'
+

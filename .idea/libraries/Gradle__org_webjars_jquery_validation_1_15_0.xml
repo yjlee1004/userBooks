@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:jquery-validation:1.15.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery-validation/1.15.0/4d60755c8fc891a3c86a71a4fa5d71771936f95d/jquery-validation-1.15.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery-validation/1.15.0/35b15b2a362b7ef2af116c641c79b8a6bf19b7ec/jquery-validation-1.15.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

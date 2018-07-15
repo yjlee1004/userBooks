@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:jquery-blockui:2.65">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery-blockui/2.65/bc90102cbd3c91740d44d83b5bb949b8798ed477/jquery-blockui-2.65.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery-blockui/2.65/f58fc8608f80a80496b97a54c2e49e7e3673eb08/jquery-blockui-2.65-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
