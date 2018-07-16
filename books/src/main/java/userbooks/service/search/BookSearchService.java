@@ -1,6 +1,8 @@
 package userbooks.service.search;
 
+import org.springframework.data.domain.Pageable;
 import userbooks.dto.BookDto;
+import userbooks.dto.KakaoSearchDataDto;
 import userbooks.dto.UserDto;
 import userbooks.util.BooksPage;
 
@@ -9,7 +11,7 @@ import userbooks.util.BooksPage;
  */
 public interface BookSearchService {
 
-    public BooksPage<BookDto> getBooks(String searchWord,UserDto userDto);
+    public BooksPage<BookDto> getBooks(KakaoSearchDataDto kakaoSearchDataDto, UserDto userDto);
 
 
 }

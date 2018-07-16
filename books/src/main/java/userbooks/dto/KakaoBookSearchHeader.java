@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import userbooks.util.BooksPage;
 
 import java.io.Serializable;
 
@@ -17,13 +16,13 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class KakaoBookSearchHeader implements Serializable {
 
-    @JsonProperty("totalCount")
+    @JsonProperty("total_count")
     Integer totalCount;
 
     @JsonProperty("pageable_count")
     Integer pageableCount;
 
     @JsonProperty("is_end")
-    BooksPage isEnd;
+    Boolean isEnd;
 
 }

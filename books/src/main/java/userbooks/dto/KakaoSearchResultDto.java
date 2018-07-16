@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by yjlee on 2018-07-14.
@@ -20,8 +21,8 @@ public class KakaoSearchResultDto implements Serializable {
     KakaoBookSearchHeader kakaoBookHeader;
 
 
-    @JsonProperty("document")
-    KakaoBookSearchDocument kakaoBookSearchDocument;
+    @JsonProperty("documents")
+    List<KakaoBookSearchDocument> kakaoBookSearchDocument;
 
 
 }

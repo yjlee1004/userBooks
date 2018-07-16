@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @EnableJpaRepositories(basePackages="userbooks.dao")
 @EntityScan(basePackages = "userbooks.model")
 @ComponentScan(basePackages = "userbooks.*")
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 @Transactional
 //@SpringApplicationConfiguration(classes = TestEnv.class)
 @Configuration
