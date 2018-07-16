@@ -22,7 +22,6 @@ import org.springframework.transaction.annotation.Transactional;
 //@SpringApplicationConfiguration(classes = TestEnv.class)
 @Configuration
 public class TestEnv {
-
     public static void main(String[] args)
     {
         SpringApplication.run(TestEnv.class, args);
